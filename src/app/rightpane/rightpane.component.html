@@ -1,0 +1,72 @@
+
+<div class="container-fluid">
+    <section class="row justify-content-center">
+        <div id="mainContainer" class="col-md-10" >
+
+            <div  id="mainHeading" class="d-flex justify-content-between">
+                <div class="p-2 bd-highlight" ><h2 style="font-size:48px"><b>DEVICES</b></h2></div>
+                <div class="p-2 bd-highlight box add" id="addNewDevice" ><img src="../../assets/plus-dk.png" alt=""></div>
+            </div>
+
+            <div id="subHeading" class="d-flex justify-content-between">
+                <div class="p-2 bd-highlight"> <h5 style="font-size:32px" id="subHeadingShadow"><b>{{item.name}}</b></h5></div>
+                <div class="p-2 bd-highlight">
+                    <h4 id="toggleButton">
+                        <label class="switch">
+                            <input type="checkbox" >
+                            <span class="slider round"></span>
+                          </label>
+                    </h4>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between"id="shades">
+                <div class="p-2 bd-highlight" ><p><b>SHADES</b></p></div>
+                <div class="p-2 flex-fill  bd-highlight"><hr class="dotted"></div>
+            </div>
+            
+            <div id="colorPallette" class="row">
+                <div class="d-flex justify-content-between col-md-11">
+                    <div id="colorPalletteBox" class='box one'></div>
+                    <div id="colorPalletteBox" class='box two'></div>
+                    <div id="colorPalletteBox" class='box three'></div>
+                    <div id="colorPalletteBox" class='box four'></div>
+                    <div id="colorPalletteBox" class='box five'></div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between" id="shades">
+                <div class="p-2 bd-highlight" ><p><b>MODE</b></p></div>
+                <div class="p-2 flex-fill  bd-highlight"><hr class="dotted"></div>
+            </div>
+            <div class="row p-2 mybtn active">
+                <div id="night" class="col-3"><img src="../../assets/morning-wh.png" alt=""></div>
+                <div id="whichMode" class="col-5">Morning</div>
+                <div id="intensityPercentage" class="col-3">50%</div>
+                <div class="col-1 modeTick"><img src="./../../assets/tick-wh.png" alt=""></div>
+            </div>
+            <div class="row p-2 mybtn">
+                <div id="night" class="col-3"><img src="../../assets/day-dk.png" alt=""></div>
+                <div id="whichMode" class="col-5">Day</div>
+                <div id="intensityPercentage"  class="col-3">30%</div>
+                <div class="col-1 modeTick"><img src="./../../assets/tick-wh.png" alt=""></div>
+            </div>
+            <div class="row  p-2 mybtn">
+                <div id="night" class="col-3"><img src="../../assets/night-dk.png" alt=""></div>
+                <div id="whichMode" class="col-5">Night</div>
+                <div id="intensityPercentage" class="col-3">100%</div>
+                <div class="col-1 modeTick"><img src="./../../assets/tick-wh.png" alt=""></div>
+            </div>
+             
+
+            <div class="d-flex justify-content-between"id="shades" >
+                <div class="p-2 bd-highlight" ><p><b>INTENSITY</b></p></div>
+                <div class="p-2 flex-fill  bd-highlight"><hr class="dotted"></div>
+            </div>
+
+            <div id="arc-slider" class="rslider"></div>
+        </div>
+    </section>
+</div>
+    
+ 

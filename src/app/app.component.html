@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4 vh-100 left-pane" >
+      <div class="app-box" *ngFor="let item of items" (click)="onSelect(item)">
+        <img src="{{ item.imagePath }}" class="app-box-img" alt="...">
+        <div class="app-box-desc">
+          <h5 id="itemTitle" class="app-box-desc-title">{{ item.title }}</h5>
+          <p  id="itemDescription"class="app-box-desc-text d-none d-lg-block"> {{item.desc}} </p>
+        </div>
+      </div>      
+    </div>
+    <div class="col-sm-8 right-pane">
+      <app-rightpane [item]="selectedItem"></app-rightpane>
+    </div>
+  </div>
+</div>
