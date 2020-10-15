@@ -4,35 +4,19 @@ padding: 0;
 }
 
 html, body{
-    height: 100%;
-    /* scrollbar-width: none; */
-}
-
-.right-pane{
-    overflow: hidden;
+    height:100% !important;
+    scrollbar-width: none;
 }
 
 .left-pane{
-    overflow-y: scroll;
+    overflow-y: scroll !important;
     scrollbar-width: none;
     background-image: linear-gradient( rgba(161,14,223,1), rgba(41,144,186,1));
 }
 
-@-moz-document url-prefix() { /* Disable scrollbar Firefox */
-    html{
-      scrollbar-width: none;
-    }
-  }
-  body {
-    margin: 0; /* remove default margin */
-    scrollbar-width: none; /* Also needed to disable scrollbar Firefox */
-    -ms-overflow-style: none;  /* Disable scrollbar IE 10+ */
-    overflow-y: scroll;
-  }
-   
 ::-webkit-scrollbar { 
-        display: none;  
-}
+    display: none;  
+} 
 
 .app-box{
     display:flow-root;
@@ -114,14 +98,12 @@ html, body{
 
 @media only screen and (max-width: 576px) {
     .right-pane{
-         width: 60%; 
-        overflow: hidden;
-    }
+        width:60%; 
+     }
 
     .left-pane{
-        width: 40%;
-        overflow: hidden;
-    }
+        width:40%;
+     }
 
     .app-box-img{
         position: relative;
@@ -146,6 +128,10 @@ html, body{
         box-shadow: -8px 10px 15px -4px rgba(0,0,0,0.75);
     }
 
+    .app-box-desc-title{
+        font-size: small;
+    }
+
     .app-box:hover .app-box-img{
         position: relative;
         float: right;
@@ -153,9 +139,6 @@ html, body{
     }
     
     .app-box:hover .app-box-desc{
-        position: relative;
-        padding: 1em 2em 1em 1em;
-        right: -2em;
-        float: left;
+       display: none;
     }
 }
