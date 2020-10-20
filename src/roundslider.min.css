@@ -40,8 +40,8 @@
 .rs-half.rs-top .rs-tooltip,.rs-half.rs-bottom .rs-tooltip{left:50%}
 .rs-half.rs-left .rs-tooltip,.rs-half.rs-right .rs-tooltip{top:50%}
 .rs-tooltip .rs-input{outline:0 none;border:none;background:transparent}
-.rs-tooltip-text{font-family:Montserrat;font-size:50px; font-weight:800; border-radius:7px;text-align:center;color:inherit;margin-top: 50px;}
-.rs-tooltip.rs-edit{padding:5px 8px}.rs-tooltip.rs-hover,.rs-tooltip.rs-edit:hover{border:1px solid #AAA;cursor:pointer}
+.rs-tooltip-text{font-family:Montserrat;font-size:40px; font-weight:800; border-radius:7px;text-align:center;color:inherit;}
+.rs-tooltip.rs-edit{padding:5px 12px}.rs-tooltip.rs-hover,.rs-tooltip.rs-edit:hover{border:1px solid #AAA;cursor:pointer}
 .rs-readonly .rs-tooltip.rs-edit:hover{border-color:transparent;cursor:default}.rs-tooltip.rs-center{margin:0px!important}
 .rs-half.rs-top .rs-tooltip.rs-center,.rs-half.rs-bottom .rs-tooltip.rs-center{transform:translate(-50%,0)}
 .rs-half.rs-left .rs-tooltip.rs-center,.rs-half.rs-right .rs-tooltip.rs-center{transform:translate(0,-50%)}
