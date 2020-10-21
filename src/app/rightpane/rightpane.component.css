@@ -98,7 +98,7 @@
 .box {
   height: 40px;
   width: 40px;
-  margin-top: 15px;
+  /* margin-top: 5px; */
   background-color: #A3F8FF;
 
 }
